@@ -1,0 +1,104 @@
+@media (min-width: 1025px) {
+  .banner h1 {
+    font-size: xx-large;
+    top: 5%;
+    left: 15%;
+  }
+  .banner h2 {
+    font-size: x-large;
+    top: 11%;
+    left: 15%;
+  }
+  .banner h4 {
+    font-size: medium;
+    top: 12.5%;
+    left: 26%;
+  }
+  .banner .image {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 3%;
+    left: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner h1 {
+    display: none;
+  }
+  .banner h2 {
+    font-size: large;
+    top: 18%;
+    left: 32%;
+  }
+  .banner h4 {
+    font-size: xx-small;
+    top: 22%;
+    left: 32%;
+  }
+  .banner .image {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 2%;
+    left: 25%;
+  }
+}
+
+.banner {
+  padding: 0;
+  margin: 0;
+  min-height: 200px;
+  height: auto;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.banner h1 {
+  position: absolute;
+  color: black;
+  font-family: 'Lucida Handwriting', cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.banner h2 {
+  position: absolute;
+  color: black;
+  font-family: 'Lucida Handwriting', cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.banner h4 {
+  position: absolute;
+  color: black;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.banner h1:hover {
+  cursor: pointer;
+}
+
+.burger {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  color: var(--tertiary-color);
+  z-index: 999;
+}
+
+.burger p {
+  font-size: xx-large;
+  font-size-adjust: inherit ;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 10px;
+}
+
+.burger:hover {
+  cursor: pointer;
+}

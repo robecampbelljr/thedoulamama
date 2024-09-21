@@ -1,0 +1,67 @@
+@media (min-width: 1025px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 33vh;
+  }
+  .footer .socialmedia {
+    margin-top: -25px;
+  }
+  .footer .socialicons {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .faqsection a{
+    font-size: 10.8pt;
+  }
+  .footer .socialicons {
+    justify-content: baseline;
+  }
+}
+
+.footer {
+  width: 100vw;
+  background-color: var(--secondary-color);
+}
+
+.footer .address {
+  min-width: auto;
+  max-width: fit-content;
+  margin: 0px 20px 0px 20px;
+}
+.footer h3 {
+  padding: 0px;
+  margin: 15px 0px 10px 0px;
+}
+
+.footer .address h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer .faqsection {
+  margin: 0px 20px 0px 20px;
+}
+
+.footer .socialmedia {
+  margin: 0px 20px 0px 20px;
+}
+
+.footer .socialicons {
+  display: flex;
+  flex-direction: row;
+}
+
+.copyrite {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding-bottom: 10px;
+}
