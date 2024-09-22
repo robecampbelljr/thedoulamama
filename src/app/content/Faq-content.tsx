@@ -322,7 +322,7 @@ export const postpartumfaqs = {
   ] // END OF POSTPARTUM FAQ ARRAY
 }; // END OF POSTPARTUM PARENT
 
-export const lactationfaq = {
+export const lactationfaqs = {
   service: `Lactation FAQ`, // This is the main service heading
   faqs: [
     {
