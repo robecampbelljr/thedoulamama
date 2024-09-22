@@ -2,6 +2,7 @@ import fblogo from '../images/fblogo.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './styles/footer.module.css';
+import instalogo from '../images/insta.png'
 
 const Footer = () => {
 
@@ -27,7 +28,8 @@ const Footer = () => {
         <section className={styles.socialmedia}>
           <h3>Social Media:</h3>
           <section className={styles.socialicons}>
-            <a href="https://www.facebook.com" target="_blank"><Image src={fblogo} height={50} width={50} alt="Facebook Logo"></Image></a>
+            <a href="https://www.facebook.com/profile.php?id=61556556729873" target="_blank"><Image src={fblogo} height={50} width={50} alt="Facebook Logo"></Image></a>
+            <a href="https://www.instagram.com/erica.the.doula.mama/?igsh=MW5qdmNyM296MGpmdw%3D%3D&utm_source=qr" target="_blank"><Image src={instalogo} height={50} width={50} alt="Instagram Logo"></Image></a>
           </section>
         </section>
       </footer>
