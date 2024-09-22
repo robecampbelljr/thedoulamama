@@ -14,6 +14,7 @@ export default function Burger() {
           <li className="cursive"><a href="/about-us">About Erica</a></li>
           <li className="cursive"><a href="/contact">Contact Erica</a></li>
           <li className="cursive"><a href="/faqs">FAQs</a></li>
+          <li className="cursive"><a href="/services">Services</a></li>
           </ul>
       </div>
       <div className={`${styles.screen} ${styles.fadein}`}></div>
