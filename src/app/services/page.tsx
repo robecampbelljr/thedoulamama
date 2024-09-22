@@ -9,8 +9,8 @@ export default function Services() {
       {servicesPackages.map((service, index) => {
         let title = service.title;
         return (
-          <div key={`${title}-service`}>
-            <h3>{title}</h3>
+          <div key={`${title}-service-${index}`}>
+            <h3 id={`${service.id}`}>{title}</h3>
             <p>{service.description}</p>
             <h4>{service.price}</h4>
             <ul>
